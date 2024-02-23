@@ -1,0 +1,26 @@
+/* Menu.css */
+.Menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 220px; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  margin: 10px 0;
+  transition: color 0.3s;
+}
+
+.Menu a:hover {
+  color: #ff6600;
+  background-color: black;
+}

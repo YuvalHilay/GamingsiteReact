@@ -1,0 +1,15 @@
+.Home{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    font-size: smaller;
+    color:black
+   
+}
+.Home siteData{
+    color:black;
+    font-size: x-large;
+    size: 30px;
+
+}

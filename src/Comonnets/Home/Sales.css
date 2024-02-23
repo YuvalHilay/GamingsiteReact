@@ -1,0 +1,64 @@
+/* Sales.css */
+
+.SalesContainer {
+  background-color: #555;
+  border: 1px solid #555;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 80%; /* Stretch to fill the entire width */
+  box-sizing:border-box; /* Include padding and border in the width calculation */
+}
+
+/* Style the sales title */
+.SalesTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center; /* Center align the title */
+}
+
+/* עיצוב הרשימה של הפריטים כשורה אחת */
+.SalesList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* שורה אחרי שורה כאשר יש יותר מהרוחב המוצג במסך */
+  justify-content: flex-start; /* התחל משמאל כדי להשאיר את הרווח בצד ימין */
+  overflow-x: auto;
+  align-items: center;
+}
+
+
+/* Style individual list items */
+.SalesItem {
+  border: 5px solid #555;
+  padding: 0px;
+  background-color: #555;
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  text-align: center;
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally align items in the middle */
+}
+
+/* Hover effect on list items */
+.SalesItem:hover {
+  background-color: #e6dbdb;
+  cursor: pointer;
+}
+
+.SalesItem img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+/* Center item text */
+.SalesItem p {
+  margin: 0;
+}

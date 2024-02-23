@@ -1,0 +1,11 @@
+.Footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* הזחת את התוכן לתחתית */
+    align-items: flex-end; /* הזחת את התוכן לצד הימני */
+    font-size: smaller;
+    color: black;
+    
+  }
+  
